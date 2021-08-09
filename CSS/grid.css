@@ -1,0 +1,204 @@
+.col-5{
+    display: grid;
+    grid-template-columns: repeat(5, 3fr);
+    grid-gap: 10px; 
+}
+.col-4{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-gap: 10px;
+}
+.col-2{
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    grid-gap: 30px;
+}
+.noGGap{
+    grid-gap: 0 !important;
+}
+
+/* Custom Options */
+
+.projectShowCase{
+    padding: 0 5vw;
+}
+.regularDiv2{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #d31353;
+    padding-bottom: 2rem;
+  }
+.projectShowCase > :nth-child(1){
+    text-align: left;
+}
+.projectShowCase > :nth-child(1) h5:nth-child(1){
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.projectShowCase > :nth-child(1) h5:nth-child(2){
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem;
+}
+.projectShowCase > :nth-child(2){
+    text-align: left;
+}
+.projectShowCase > :nth-child(2) h5:nth-child(1){
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.projectShowCase > :nth-child(2) h5:nth-child(2){
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem;
+}
+.projectShowCase > :nth-child(3){
+    text-align: left;
+}
+.projectShowCase > :nth-child(3) h5:nth-child(1){
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.projectShowCase > :nth-child(3) h5:nth-child(2){
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem;
+}
+.regulerDiv24{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.regularDiv3{
+    margin: 2rem;
+    text-align: left;
+}
+.regularDiv3 > p {
+    font-family: 'Poppins', sans-serif;
+}
+.regularDiv1{
+    margin-top: 20px 35%;
+    text-align: center;
+}
+.regularDiv1 > img{
+    text-align: center;
+    transform: translateX(12%);
+}
+
+
+.projectInfo{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.473);
+    -webkit-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+    z-index: 9;
+}
+.projectInfo > a{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-family: 'Kulim Park', 'Open Sans';
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+.projectInfo > a > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.589);
+    position: relative;
+    text-align: center;
+    margin: 100px 10% 0 10%;
+    border: 2px solid #d31353;
+    padding: 12px 14px;
+    transition: all 0.2s ease-in-out;
+}
+.projectInfo > a > a:hover{
+    background-color: #fff;
+    color: #d31353;
+}
+.projectTitle{           
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.projectImg{
+    max-width: 80%;
+    border-radius: 4px;
+    transition: ease-in-out .5s;
+    -webkit-transition: ease-in-out .5s;
+}
+.projectImg:hover{
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+}
+/* css Zoom in animations */
+.projectDiv > .projectInfo{
+    display: none;
+    
+}
+.projectDiv:hover > .projectInfo{
+    display: block;
+    animation: fade_in_show 0.5s;
+    -webkit-animation: fade_in_show 0.5s;
+}
+.projectDiv:hover > .projectTitle{
+    height: 100%;
+}
+.projectDiv:hover > h3{
+    display: none;
+}
+.projectDiv{
+    transition: padding 0.2s ease-in-out;
+}
+.projectDiv:hover{
+    padding: 0px;
+}
+
+@media screen and (max-width: 1200px){
+    .col-2{
+        display: grid;
+        grid-template-columns: repeat(1, 6fr);
+        grid-gap: 0px;
+    }
+}
+@media screen and (max-width: 500px){
+    .col-4{
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        grid-gap: 30px;
+    }
+    .col-4:last-of-type{
+        display: grid;
+        grid-template-columns: repeat(1, 6fr);
+        grid-gap: 30px;
+    }
+}
+@media screen and (max-width: 900px){
+    .regularDiv2 > div{
+        flex-basis: 30%;
+        padding: 0 10px;
+        border-right: 2px solid #3b3b3b6e;
+    }
+    .regulerDiv24{
+        flex-basis: 30%;
+        padding: 0 10px;
+        border-right: none !important;
+    }
+}

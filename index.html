@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Din's Portfolio</title>
+
+    <link rel="stylesheet" href="CSS/mobile.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/popUp.css">
+    <link rel="stylesheet" href="CSS/grid.css">
+    <link rel="stylesheet" href="CSS/animations.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/939c3b7b3f.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav">
+        <div class="logo-container"><a href="#main"><img class="nav-logo" src="images/New Project (1).png" alt="Din Shpati"></a></div>
+        <div class="link-container">
+            <ul class="desktop-nav">
+                <li><a href="#about" class="nav-links four goToAbout">About.</a></li>
+                <li><a href="#projects" class="nav-links four">Projects.</a></li>
+                <li><a href="#skills" class="nav-links four">Skills.</a></li>
+                <li><a href="#experience" class="nav-links four">Experience.</a></li>
+                <!-- <li><a href="" class="nav-links four">Blog.</a></li> -->
+                <li><a href="#contact" class="nav-links four">Contact.</a></li>
+                <li><a href="http://dinshpati.com/resume.pdf" class="nav-links four">Resume.</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="mnav">
+            <a href="#main" class="button_logo"><img class="nav-logo" src="images/New Project (1).png" alt="Din Shpati"></a>
+            <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+        </div>
+        <div class="mOverlay" id="mOverlay">
+            <nav class="mOverlay-menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#http://dinshpati.com/resume.pdf">Resume</a></li>
+            </ul>
+            </nav>
+        </div>
+    </nav>
+    <nav class="socials">
+        <ul class="socials-list">
+            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
+            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
+            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+        </ul>
+        <div class="vertical-line"></div>
+    </nav>
+    <a href="mailto:dspataj@gmail.com" class="email-vertical">dspataj@gmail.com</a>
+    <div class="vertical-line2"></div>
+    
+    <section class="mainContainer">
+        <section class="container panel" id="main">
+            <section class="main panel">
+                <div class="area">
+                    <ul class="circles">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                    </ul>
+                </div >
+                <svg id="logo" width="300" height="193" viewBox="0 0 300 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M44.7 148.588V46.56V46.3519L44.5524 46.2053L1.35237 3.29325L0.5 2.44656V3.64798V149.088V149.296L0.647631 149.443L43.8476 192.355L43.9939 192.5H44.2H76.456H76.6631L76.8096 192.354L135.85 133.314L135.996 133.167V132.96V72.192V71.9849L135.85 71.8384L66.7296 2.71844L66.5831 2.57199H66.376H5.608H4.40089L5.25445 3.42554L74.3745 72.5456L74.5209 72.692H74.728H134.289L58.3929 148.588H44.7ZM297.173 3.42672L298.034 2.57199H296.821H213.013H212.513V3.07199V45.984V46.484H213.013H253.621H253.827L253.973 46.3387L297.173 3.42672ZM210.057 3.07199V1.86488L209.203 2.71844L166.291 45.6304L166.145 45.7769V45.984V79.968V80.1751L166.291 80.3215L191.714 105.744L148.723 148.734L148.369 149.089L148.725 149.443L191.925 192.355L192.071 192.5H192.277H253.333H253.54L253.687 192.354L296.599 149.442L296.745 149.295V149.088V148.8V148.593L296.599 148.446L253.687 105.534L210.057 61.9049V3.07199ZM192.777 106.388H252.833V148.588H192.777V106.388Z" stroke="#D01F5B"/>
+                </svg>
+                <svg id="logo-cover" width="300" height="193" viewBox="0 0 300 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M58.3929 148.588H44.7V46.56V46.3519L44.5524 46.2053L1.35237 3.29325L0.5 2.44656V3.64798V149.088V149.296L0.647631 149.443L43.8476 192.355L43.9939 192.5H44.2H76.456H76.6631L76.8096 192.354L135.85 133.314L135.996 133.167V132.96V72.692H136.703L135.996 71.9849V70.9849L135.496 71.4849L66.7296 2.71844L66.5831 2.57199H66.376H5.608H4.40089L5.25445 3.42554L74.3745 72.5456L74.5209 72.692H74.728H134.289L58.3929 148.588ZM297.173 3.42672L298.034 2.57199H296.821H213.013H212.513V3.07199V45.984V46.484H213.013H253.621H253.827L253.973 46.3387L297.173 3.42672ZM210.057 3.07199V1.86488L209.203 2.71844L166.291 45.6304L166.145 45.7769V45.984V79.968V80.1751L166.291 80.3215L191.714 105.744L148.723 148.734L148.369 149.089L148.725 149.443L191.925 192.355L192.071 192.5H192.277H253.333H253.54L253.687 192.354L296.599 149.442L296.745 149.295V149.088V148.8V148.593L296.599 148.446L254.54 106.388L253.687 105.534L252.833 104.681L210.057 61.9049V3.07199ZM192.777 106.388H252.833V148.588H192.777V106.388Z" fill="url(#paint0_linear)" stroke="url(#paint1_linear)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear" x1="-10" y1="100" x2="390" y2="100" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.307292" stop-color="#D01F5B" stop-opacity="0"/>
+                    <stop offset="0.723958" stop-color="#181818"/>
+                    </linearGradient>
+                    <linearGradient id="paint1_linear" x1="1" y1="98" x2="297" y2="98" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.40625" stop-color="#D01F5B" stop-opacity="0.29"/>
+                    <stop offset="0.838542" stop-color="#181818"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <p class="text">
+                    <span class="text__first">
+                        <span class="text__word">Din Spataj.</span>
+                        <span class="text__first-bg"></span>
+                    </span>
+                </p>
+            
+                <p class="little-txt">Software Engineer / Full Stack Developer</p>
+            
+                <img class="scroll-down-gif" src="images/Scroll-Down-icon-Home.gif" alt="Scroll Down"/>
+                <p class="scroll-down">Scroll Down</p>
+                        
+            </section>
+        </section>
+        <section class="panel" id="about">
+            <div data-aos="zoom-in" data-aos-duration="2000">
+                <div class="HiIAm"> 
+                    <h2 data-aos="zoom-in-up" data-aos-duration="2500">Hi, I'm Din. Nice to meet you.</h2>
+                    <div data-aos="zoom-in-up" data-aos-duration="2500">
+                        <p>I'm a software engineer who specializes in building and designing exceptional digital experiences. 
+                            I am Problem solver, well-organised person, and pay high attention to detail. Currently interested in the entire full stack spectrum as well as mobile development with JS</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="panel" id="projects">
+            <h2 data-aos="fade-up" data-aos-duration="2000">Some Projects<span style="color: #e41358;">.</span></h2>
+            <div class="tab" data-aos="fade-up" data-aos-duration="2000">
+                <button class="tablinks" onclick="openCity(event, 'all')">All</button>
+                <button class="tablinks" onclick="openCity(event, 'Frontend')">Frontend</button>
+                <button class="tablinks" onclick="openCity(event, 'Backend')">Backend</button>
+                <button class="tablinks" onclick="openCity(event, 'Mobile')">Mobile</button>
+              </div>
+            <div data-aos="fade-up" data-aos-duration="2000" id="projectContainer">  
+              <div id="all" class="tabcontent" data-aos="zoom-in">
+                <script src="JS/projects.js"></script>
+                <script>listProjects("all");</script>
+              </div>
+              
+              <div id="Frontend" class="tabcontent">
+                <script src="JS/projects.js"></script>
+                <script>listProjects("Frontend");</script>
+              </div>
+              
+              <div id="Backend" class="tabcontent">
+                <script src="JS/projects.js"></script>
+                <script>listProjects("Backend");</script>
+              </div>
+              <div id="Mobile" class="tabcontent">
+                <script src="JS/projects.js"></script>
+                <script>listProjects("Mobile");</script>
+              </div>
+            </div>
+        </section>
+        <section class="panel" id="skills">
+            <h1>Skills<span style="color: #e41358;">.</span></h1>
+            <div class="skills">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h2>Frontend:</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3/SCSS/LESS</li>
+                        <li>Javascript</li>
+                        <li>JSX</li>
+                        <li>React</li>
+                        <li>JSON</li>
+                        <li>XML</li>
+                        <li>Webpack</li>
+                        <li>Unity</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1400">
+                    <h2>Backend:</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>C#</li>
+                        <li>NodeJS</li>
+                        <li>C++</li>
+                        <li>Express</li>
+                        <li>Nginx</li>
+                        <li>REST</li>
+                    </ul>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1800">
+                    <h2>Database:</h2>
+                    <ul>
+                        <li>MS SQL Server</li>
+                        <li>MySQL</li>
+                        <li>Firebase</li>
+                        <li>MongoDB</li>
+                        <li>NoSQL</li>
+                        <li>Postgres</li>
+                    </ul>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2100">
+                    <h2>Mobile:</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Android Development</li>
+                        <li>React Native</li>
+                        <li>Flutter</li>
+                    </ul>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2100">
+                    <h2>Other:</h2>
+                    <ul>
+                        <li>Git/github/gitlab</li>
+                        <li>Illistrator</li>
+                        <li>Photoshop</li>
+                        <li>After Effects</li>
+                        <li>Premiere</li>
+                        <li>Adobe XD</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="panel" id="experience">
+            <div class="containerSS">
+                <div class="timeline">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background: #292929;" data-year="Freelance">
+                                <h1 style="margin: 20vh 0 0 10vw;color: rgb(243, 243, 243);">My Experience<span style="color: #e41358;">.</span></h1>
+                                <div class="swiper-slide-content"><span class="timeline-year">Freelance</span>
+                                    <h4 class="timeline-title">Web Develop / Wordpress</h4>
+                                    <p class="timeline-text">Did some freelance work for comapnies such as eurotoppainting.com, vividcoatpainting.com, saraboutique, & Bellcitykicks.com <br> Did some static html sites but the majority of the sites that I developed for my freelance clients are with Wordpress</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="background: #161616;" data-year="TNB">
+                                <h1 style="margin: 20vh 0 0 10vw;color: rgb(243, 243, 243);">My Experience<span style="color: #e41358;">.</span></h1>
+                                <div class="swiper-slide-content"><span class="timeline-year">The New Boston</span>
+                                    <h4 class="timeline-title">Full Stack Developer</h4>
+                                    <ul style="list-style: none; color: rgb(243, 243, 243);">
+                                        <li style="margin: 10px 0; color: rgb(211, 211, 211);">• Helping to build the world's fastest, most
+                                            reliable, and secure digital currency
+                                            blockchain network.</li>
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• Technologies I used: React (Typescript), Python, HTML, CSS, JavaScript</li>
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• I also build a featurfull discord bot using Node.js and Discord.js</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="background: #1a1a1a;" data-year="GAOTek">
+                                <h1 style="margin: 20vh 0 0 10vw;color: rgb(243, 243, 243);">My Experience<span style="color: #e41358;">.</span></h1>
+                                <div class="swiper-slide-content"><span class="timeline-year">GAOTek</span>
+                                    <h4 class="timeline-title">Lead Software Engineer Intern</h4>
+                                    <ul style="list-style: none;">
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• Designed and Developed an Excel Amazon product listing
+                                            generator.</li>
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• The excel product generator reduced product deployment time
+                                            by 30%</li>
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• I also helped with designing and developing the company’s
+                                            website as well as the SEO and digital marketing part of the
+                                            company as well.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="background: #161616;" data-year="NESB">
+                                <h1 style="margin: 20vh 0 0 10vw;color: rgb(243, 243, 243);">My Experience<span style="color: #e41358;">.</span></h1>
+                                <div class="swiper-slide-content"><span class="timeline-year">New England Shea Butter</span>
+                                    <h4 class="timeline-title">Full Stack Developer</h4>
+                                    <ul style="list-style: none;">
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• Helped reduce the costs of running the company’s ecommerce
+                                            store by rebuilding the whole store and reducing the codebase.</li>
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• Technologies used: HTML, CSS, JavaScript, PHP, MySQL</li>
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• Improved SEO by 60% after rebuilding the website</li>
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• Did photo editing using adobe photoshop for some of the images
+                                            and website graphics.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="background: #292929;" data-year="Upwork">
+                                <h1 style="margin: 20vh 0 0 10vw;color: rgb(243, 243, 243);">My Experience<span style="color: #e41358;">.</span></h1>
+                                <div class="swiper-slide-content"><span class="timeline-year">Upwork</span>
+                                    <h4 class="timeline-title">Web Developer</h4>
+                                    <ul style="list-style: none;">
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• At Upwork, I mostly did Front End Development with HTML,
+                                            CSS, & JavaScript</li>
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• Did a lot of PSD to HTML Conversions</li>
+                                        <li style="margin: 10px 0;color: rgb(211, 211, 211);">• Worked with companies such as BrideBook and Cool Gigs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel" id="contact">
+            <h1 class="h1 animated animation_delay_2 slide-in-right" data-aos="fade-up" data-aos-duration="1500">Contact Me<span style="color: #e41358;">.</span></h1>
+            <p style="text-align: center !important;" >Have a question or want to work together? Feel free to
+                contact me when ever you like and I will try and get back to you as soon as possible.</p>
+            <form action="https://formspree.io/proendergamer03@gmail.com" method="post">
+                <div class="col-2">
+                    <div><input type="text" class="input" name="Name" placeholder="Name" required="" ><span class="border-bottom"></span></div>
+                    <div><input type="email" name="Email" placeholder="Email" class="input" required="" style="width: 100%;"><span class="border"></span></div>
+                </div>
+
+                <input type="text" name="Subject" placeholder="Subject" class="input"><span class="border"></span>
+                <textarea class="input" name="Message" id="" placeholder="Message" cols="30" rows="10"></textarea><span class="border"></span> 
+
+                <button class="btnSubmit" type="submit">Send</button>
+            </form>
+        </section>
+        <section class="panel" id="footer">
+            <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+                <path d="M0 0 L50 100 L100 0 Z" fill="#272727" stroke="#272727"></path>
+            </svg>
+            <ul class="fContainer">
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
+                <li><a href="#main"><img class="nav-logo" src="images/gray1.png" alt="Din Shpati"></a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+                <li><a href=""><i class="far fa-file resume-icon"></i></a></li>
+            </ul>
+        </section>
+    </section>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script>
+        //timeline swiper
+        var timelineSwiper = new Swiper ('.timeline .swiper-container', {
+        direction: 'vertical',
+        loop: false,
+        speed: 1600,
+        pagination: '.swiper-pagination',
+        paginationBulletRender: function (swiper, index, className) {
+            var year = document.querySelectorAll('.swiper-slide')[index].getAttribute('data-year');
+            return '<span class="' + className + '">' + year + '</span>';
+        },
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        breakpoints: {
+            768: {
+            direction: 'horizontal',
+            }
+        }
+        });
+
+        $("#toggle").click(function () {
+            $(this).toggleClass("active");
+            $("#mOverlay").toggleClass("open");
+        });
+
+    </script>
+    
+</body>
+</html>

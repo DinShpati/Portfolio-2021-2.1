@@ -1,0 +1,124 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #D01F5B;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    overflow-y: visible;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    transition: all 0.5s ease-in-out;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    position: relative;
+    display: block;
+    padding: 40px;
+    background: #e8e8e8;
+    border-radius: 5px;
+    height: 100vh;
+    text-align: center;
+    overflow-y: scroll !important;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: 'Default';
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  .popup .skillheader{
+    color: #363636;
+  }
+  .popup .close {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #D01F5B;
+  }
+  .popup .content {
+    overflow: auto;
+    text-align: center;
+    padding: 40px 0;
+  }
+  .popup .content a{
+    float: center;
+  }
+  .view{
+    text-decoration: none;
+    color: #363636;
+    font-weight: 600;
+    padding: 12px 14px;
+    margin-right: 25px;
+    transition: all ease-in-out .4s;
+    border: 2px solid #D01F5B;
+  }
+  .view:hover{
+    background-color: #D01F5B;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .code{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #D01F5B;
+    padding: 12px 14px;
+    border: 2px solid transparent;
+    margin-right: 25px;
+    transition: all ease-in-out .4s;
+  }
+  .code:hover{
+    background-color: transparent;
+    color: #424242;
+    border: 2px solid #424242;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 100%;
+      overflow: scroll;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .popup{
+      overflow: scroll;
+    }
+  }
+  @media screen and (max-width:500px){
+    .view, .code{
+      padding: 4px 6px;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width:900px){
+    .view, .code{
+      padding: 12px 6px;
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:820px){
+    .view, .code{
+      padding: 10px 6px;
+      font-size: 13px;
+    }
+  }
