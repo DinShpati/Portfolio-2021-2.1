@@ -3,12 +3,24 @@
 //Project Data
 var projectsz = [
     {
+        name: "Appointment Scheduling App",
+        image: "https://raw.githubusercontent.com/DinShpati/C195-scheduling-Application/main/imgs/1.PNG",
+        desc: "This application was build to help manage appointments, customers, contacts, and view reports on the data gathered.",
+        video: "https://user-images.githubusercontent.com/25906602/129328660-d3f3ea8c-94ea-4462-b3f6-bc8c291a16c2.mp4",
+        whatIUsed: ["Java SE<br> Java FX<br> MySQL Workbench"],
+        view: "https://github.com/DinShpati/C195-scheduling-Application",
+        code: "https://github.com/DinShpati/C195-scheduling-Application",
+        date: "31 January 2021",
+        services: "Frontend<br> Backend<br> UI/UX"
+    },
+    {
         name: "New England Shea Butter",
         image: "http://dinshpati.com/projectImgs/nesb.png",
         desc: "Ecommerce website made for New England Shea Butter, LLC.",
         whatIUsed: ["HTML5<br> CSS3<br> Javascript<br> PHP<br> MySQL<br> PayPal Api<br> Jquery<br> Bootstrap"],
-        view: "https://nesheabutter.com",
-        code: "view-source:https://nesheabutter.com/",
+        video: false,
+        view: "https://github.com/DinShpati/NESB_PHP_UPDATE_2020",
+        code: "https://github.com/DinShpati/NESB_PHP_UPDATE_2020",
         date: "July 28th, 2018 - Present",
         services: "Frontend<br> Backend<br> UI/UX"
     },
@@ -16,6 +28,7 @@ var projectsz = [
         name: "COVID-19 Tracker",
         image: "http://dinshpati.com/projectImgs/covid-19.PNG",
         desc: "This is a covid-19 application that provides free opensource information regarding covid-19. The covid-19 data in this application is sourced from The Center for Systems Science and Engineering at John Hopkins University which is accessed through a Application Programming Interface (API) provided by @mathdroid.",
+        video: false,
         whatIUsed: ["HTML5<br> CSS3<br> Javascript<br> REACT<br> FECTH API<br> MapBox<br> Postman"],
         view: "http://covid19.dinshpati.com/#/",
         code: "https://github.com/DinShpati/covid-19",
@@ -26,6 +39,7 @@ var projectsz = [
         name: "WXY Movies",
         image: "http://dinshpati.com/projectImgs/wxymovies.png",
         desc: "This is a fully responsive landing page for a movies website.",
+        video: false,
         whatIUsed: ["HTML5<br> CSS3<br> Javascript<br> Jquery"],
         view: "https://dinshpati.github.io/wxy-Movies-Webpage/",
         code: "https://github.com/DinShpati/wxy-Movies-Webpage",
@@ -36,6 +50,7 @@ var projectsz = [
         name: "LYFT Clone 2019",
         image: "http://dinshpati.com/projectImgs/lyft.png",
         desc: "A clone of lyfts website",
+        video: false,
         whatIUsed: ["HTML5<br> CSS3<br> Javascript<br> Jquery"],
         view: "https://dinshpati.github.io/LYFT_CLONE/",
         code: "https://github.com/DinShpati/LYFT_CLONE",
@@ -43,19 +58,10 @@ var projectsz = [
         services: "Frontend<br> Backend<br> UI/UX"
     },
     {
-        name: "Cheap Flight Finder",
-        image: "http://dinshpati.com/projectImgs/cheapff.png",
-        desc: "Cheap flight finders main page for the landing page, desktop/laptop screen only",
-        whatIUsed: ["HTML5<br> CSS3<br> Javascript<br> Jquery"],
-        view: "https://dinshpati.github.io/CheapFlightFinder/",
-        code: "https://github.com/DinShpati/CheapFlightFinder",
-        date: "July 28th, 2018 - Present",
-        services: "Frontend<br> Backend<br> UI/UX"
-    },
-    {
         name: "GAOTek, Excel Generator",
         image: "http://dinshpati.com/projectImgs/gaotek.PNG",
         desc: "We are creating a program that takes user inputs and generates a amazon excel sheet that can be uploaded to amazon and automatically create a product lisitng.",
+        video: false,
         whatIUsed: ["HTML5<br> CSS3<br> Javascript<br> PHP<br> Composer<br> Bootstrap"],
         view: "https://github.com/scalable-system/project22",
         code: "https://github.com/scalable-system/project22",
@@ -63,29 +69,10 @@ var projectsz = [
         services: "Backend<br> UI/UX"
     },
     {
-        name: "Pazzam",
-        image: "http://dinshpati.com/projectImgs/pazzam.png",
-        desc: "This is a landing page build for a creative agnecy called Pazzam",
-        whatIUsed: ["HTML5<br> CSS3<br> Javascript"],
-        view: "https://dinshpati.github.io/Pazzam/",
-        code: "https://github.com/DinShpati/Pazzam",
-        date: "July 28th, 2018 - Present",
-        services: "Frontend<br> Backend<br> UI/UX"
-    },
-    {
-        name: "BrideBook",
-        image: "http://dinshpati.com/projectImgs/bridebook.jpg",
-        desc: "This is a email template made for bridebook.",
-        whatIUsed: "HTML5<br> CSS3<br> Javascript",
-        view: "https://dinshpati.github.io/bridebook/",
-        code: "https://github.com/DinShpati/bridebook",
-        date: "July 28th, 2018 - Present",
-        services: "Frontend<br> UI/UX"
-    },
-    {
         name: "Norwalk CC Final Project",
         image: "http://dinshpati.com/projectImgs/norwalkccfinalproject.png",
         desc: "This is was my final project for a web dev class at Norwalk CC.",
+        video: false,
         whatIUsed: "HTML5<br> CSS3<br> Javascript",
         view: "https://dinshpati.github.io/NorwalkCC-Final/index.html",
         code: "https://github.com/DinShpati/NorwalkCC-Final",
@@ -96,6 +83,7 @@ var projectsz = [
         name: "EasyBank Landing Page",
         image: "http://dinshpati.com/projectImgs/EasyBank.jpg",
         desc: "This was a front-end coding challenge by frontendmentor.io",
+        video: false,
         whatIUsed: "HTML5<br> CSS3<br> Javascript",
         view: "https://dinshpati.github.io/EasyBank-Landing-Page/",
         code: "https://github.com/DinShpati/EasyBank-Landing-Page",
@@ -124,6 +112,7 @@ function listProjects(typeOf){
         view = projects[i].view, 
         code = projects[i].code,
         services = projects[i].services;
+        video = projects[i].video;
 
         //Main Div
         projectDiv = document.createElement("div");
@@ -181,7 +170,12 @@ function listProjects(typeOf){
                         // Regular Container
                         regulerDiv1 = document.createElement("div");
                         regulerDiv1.className = "regularDiv1";
-                        
+                        //Optional video
+                            let Pvideo = document.createElement('video');
+                            Pvideo.controls = true;
+                            Pvideo.src = video;
+                            Pvideo.autoplay = false;
+
                             //Project Image
                             projectImage = document.createElement("img");
                             projectImage.className = "projectImg";
@@ -287,7 +281,9 @@ function listProjects(typeOf){
                     regulerDiv2.appendChild(regulerDiv24);
                     regulerDiv24.appendChild(viewSite);
                     regulerDiv24.appendChild(viewCode);
-
+                    if(video){
+                        regulerDiv1.appendChild(Pvideo);
+                    }
                     regulerDiv1.appendChild(projectImage);
                     
                     //contentDiv.appendChild(viewSite);
@@ -365,6 +361,13 @@ function listProjects(typeOf){
                         regulerDiv1 = document.createElement("div");
                         regulerDiv1.className = "regularDiv1";
                         
+                        
+                            //Optional video
+                                let Pvideo = document.createElement('video');
+                                Pvideo.controls = true;
+                                Pvideo.src = video;
+                                Pvideo.autoplay = false;
+
                             //Project Image
                             projectImage = document.createElement("img");
                             projectImage.className = "projectImg";
@@ -471,6 +474,9 @@ function listProjects(typeOf){
                     regulerDiv24.appendChild(viewSite);
                     regulerDiv24.appendChild(viewCode);
 
+                    if(video){
+                        regulerDiv1.appendChild(Pvideo);
+                    }
                     regulerDiv1.appendChild(projectImage);
                     
                     //contentDiv.appendChild(viewSite);
@@ -550,6 +556,13 @@ function listProjects(typeOf){
                         regulerDiv1 = document.createElement("div");
                         regulerDiv1.className = "regularDiv1";
                         
+                        //Optional video
+                            let Pvideo = document.createElement('video');
+
+                            Pvideo.controls = true;
+                            Pvideo.src = video;
+                            Pvideo.autoplay = false;
+
                             //Project Image
                             projectImage = document.createElement("img");
                             projectImage.className = "projectImg";
@@ -655,7 +668,9 @@ function listProjects(typeOf){
                     regulerDiv2.appendChild(regulerDiv24);
                     regulerDiv24.appendChild(viewSite);
                     regulerDiv24.appendChild(viewCode);
-
+                    if(video){
+                        regulerDiv1.appendChild(Pvideo);
+                    }
                     regulerDiv1.appendChild(projectImage);
                     
                     //contentDiv.appendChild(viewSite);
@@ -735,6 +750,14 @@ function listProjects(typeOf){
                         regulerDiv1 = document.createElement("div");
                         regulerDiv1.className = "regularDiv1";
                         
+                            //Optional video
+                            let Pvideo = document.createElement('video');
+                            Pvideo.controls = true;
+                            Pvideo.src = video;
+                            Pvideo.autoplay = false;
+                            
+
+
                             //Project Image
                             projectImage = document.createElement("img");
                             projectImage.className = "projectImg";
@@ -840,7 +863,9 @@ function listProjects(typeOf){
                     regulerDiv2.appendChild(regulerDiv24);
                     regulerDiv24.appendChild(viewSite);
                     regulerDiv24.appendChild(viewCode);
-
+                    if(video){
+                        regulerDiv1.appendChild(Pvideo);
+                    }
                     regulerDiv1.appendChild(projectImage);
                     
                     //contentDiv.appendChild(viewSite);
