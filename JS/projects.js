@@ -3,14 +3,25 @@
 //Project Data
 var projectsz = [
     {
+        name: "Mezzanger - Chat App",
+        image: "../projectImgs/Mezzanger.png",
+        desc: "Mezzanger works anywhere in the world and is free to download and use worldwide. We currently only provide chatting and messaging features based on emails. In the near future, we will be adding video calling and voice calling features.",
+        video: false,
+        whatIUsed: ["Javascript<br> Expo<br> React<br> React-Native<br> Firebase<br> Firestore"],
+        view: "https://github.com/DinShpati/C195-scheduling-Application",
+        code: "https://github.com/DinShpati/C195-scheduling-Application",
+        date: "31 January 2021",
+        services: "Frontend<br> Backend<br> UI/UX"
+    },
+    {
         name: "Appointment Scheduling App",
         image: "https://raw.githubusercontent.com/DinShpati/C195-scheduling-Application/main/imgs/1.PNG",
         desc: "This application was build to help manage appointments, customers, contacts, and view reports on the data gathered.",
         video: "https://user-images.githubusercontent.com/25906602/129328660-d3f3ea8c-94ea-4462-b3f6-bc8c291a16c2.mp4",
         whatIUsed: ["Java SE<br> Java FX<br> MySQL Workbench"],
-        view: "https://github.com/DinShpati/C195-scheduling-Application",
-        code: "https://github.com/DinShpati/C195-scheduling-Application",
-        date: "31 January 2021",
+        view: "https://play.google.com/store/apps/details?id=com.dinshpati.Mezzage",
+        code: "https://github.com/DinShpati/Mezzanger",
+        date: "25 August 2021",
         services: "Frontend<br> Backend<br> UI/UX"
     },
     {
