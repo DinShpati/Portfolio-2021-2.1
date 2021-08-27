@@ -11,7 +11,7 @@ var projectsz = [
         view: "https://github.com/DinShpati/C195-scheduling-Application",
         code: "https://github.com/DinShpati/C195-scheduling-Application",
         date: "31 January 2021",
-        services: "Frontend<br> Backend<br> UI/UX"
+        services: "Frontend<br> Backend<br> UI/UX<br> Mobile"
     },
     {
         name: "Appointment Scheduling App",
