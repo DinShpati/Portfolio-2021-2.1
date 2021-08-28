@@ -8,8 +8,8 @@ var projectsz = [
         desc: "Mezzanger works anywhere in the world and is free to download and use worldwide. We currently only provide chatting and messaging features based on emails. In the near future, we will be adding video calling and voice calling features.",
         video: false,
         whatIUsed: ["Javascript<br> Expo<br> React<br> React-Native<br> Firebase<br> Firestore"],
-        view: "https://github.com/DinShpati/C195-scheduling-Application",
-        code: "https://github.com/DinShpati/C195-scheduling-Application",
+        view: "https://play.google.com/store/apps/details?id=com.dinshpati.Mezzage",
+        code: "https://github.com/DinShpati/Mezzanger",
         date: "31 January 2021",
         services: "Frontend<br> Backend<br> UI/UX<br> Mobile"
     },
