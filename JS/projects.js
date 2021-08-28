@@ -47,6 +47,17 @@ var projectsz = [
         services: "Frontend<br> Backend<br> UI/UX"
     },
     {
+        name: "Algorithm-Visualizer",
+        image: "../projectImgs/algo-visual.png",
+        desc: "This web app visualizes Different Algorithms using React.js",
+        video: false,
+        whatIUsed: ["HTML5<br> CSS3<br> Javascript<br> React.js<br>"],
+        view: "https://dinshpati.github.io/algorithm-visualizer/",
+        code: "https://github.com/DinShpati/algorithm-visualizer",
+        date: "August 2 2021",
+        services: "Frontend<br> Backend<br> UI/UX"
+    },
+    {
         name: "WXY Movies",
         image: "http://dinshpati.com/projectImgs/wxymovies.png",
         desc: "This is a fully responsive landing page for a movies website.",
