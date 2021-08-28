@@ -48,7 +48,7 @@ var projectsz = [
     },
     {
         name: "Algorithm-Visualizer",
-        image: "../projectImgs/algo-visual.png",
+        image: "https://github.com/DinShpati/Portfolio-2021-2.1/blob/main/projectImgs/algo-visual.PNG?raw=true",
         desc: "This web app visualizes Different Algorithms using React.js",
         video: false,
         whatIUsed: ["HTML5<br> CSS3<br> Javascript<br> React.js<br>"],
