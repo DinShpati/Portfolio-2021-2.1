@@ -69,6 +69,17 @@ var projectsz = [
         services: "Frontend<br> Backend<br> UI/UX"
     },
     {
+        name: "Bell City Kicks",
+        image: "../projectImgs/bellcitykicks.PNG",
+        desc: "This is a website made shoe selling bussiness, bell city kicks.",
+        video: false,
+        whatIUsed: ["HTML5<br> CSS3<br> Javascript<br> Jquery<br> Wordpress<br> PHP"],
+        view: "https://bellcitykicks.com/",
+        code: "https://bellcitykicks.com/",
+        date: "Jun 20th, 2021 - Present",
+        services: "Frontend<br> Backend<br> UI/UX"
+    },
+    {
         name: "LYFT Clone 2019",
         image: "http://dinshpati.com/projectImgs/lyft.png",
         desc: "A clone of lyfts website",
